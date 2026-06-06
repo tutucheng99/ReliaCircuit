@@ -1,0 +1,5 @@
+example_id,split,text,profession,gender,text_len_chars,group_id
+fixture_0000000,train,She is a professor of molecular biology.,21,1,40,21::1
+fixture_0000001,train,He is a professor of molecular biology.,21,0,38,21::0
+fixture_0000002,dev,She is a software engineer focused on distributed systems.,24,1,58,24::1
+fixture_0000003,dev,He is a software engineer focused on distributed systems.,24,0,56,24::0

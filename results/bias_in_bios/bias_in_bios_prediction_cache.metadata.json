@@ -1,0 +1,23 @@
+{
+  "model_id": "gemma-2-2b",
+  "sae_release": "gemma-scope-2b-pt-res-canonical",
+  "sae_id": "layer_20/width_16k/canonical",
+  "prompts": "data/bias_in_bios_viewer_probe/prompts.csv",
+  "labels": "data/bias_in_bios/profession_labels.csv",
+  "prompt_rows": 60,
+  "candidate_labels": 28,
+  "methods": [
+    "clean",
+    "e_bh_pcal",
+    "top_score"
+  ],
+  "label_score": "mean_logprob",
+  "intervention_pos": "prompt_last",
+  "prepend_bos": false,
+  "use_error_term": true,
+  "dry_run": false,
+  "elapsed_sec": 418.46,
+  "rows_written": 180,
+  "hook_name": "blocks.20.hook_resid_post",
+  "sae_acts_hook": "blocks.20.hook_resid_post.hook_sae_acts_post"
+}

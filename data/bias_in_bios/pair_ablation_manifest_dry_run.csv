@@ -1,0 +1,71 @@
+sweep_id,prompt_id,clean_example_id,patch_example_id,source_split,clean_prompt,patch_prompt,target_label,protected_label,patch_protected_label,group_id,patch_group_id,behavior,split,screen_rank,feature_id,screen_score,mean_abs_activation_delta,mean_signed_activation_delta,mean_metric_weighted_delta,mean_abs_metric_gap,n_screen_prompts,sae_release,sae_id,hook_name,sae_acts_hook,layer,ablation_type,resample_source_policy
+sweep_00000000,bib_pair_0000002,fixture_0000003,fixture_0000002,dev,"Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,0,1,24::0,24::1,bias_in_bios_gender_pair_activation_screen,test,1,0,1.0,1.0,1.0,1.0,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000001,bib_pair_0000002,fixture_0000003,fixture_0000002,dev,"Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,0,1,24::0,24::1,bias_in_bios_gender_pair_activation_screen,test,2,1,0.775,0.775,0.775,0.775,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000002,bib_pair_0000002,fixture_0000003,fixture_0000002,dev,"Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,0,1,24::0,24::1,bias_in_bios_gender_pair_activation_screen,test,3,2,0.55,0.55,0.55,0.55,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000003,bib_pair_0000002,fixture_0000003,fixture_0000002,dev,"Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,0,1,24::0,24::1,bias_in_bios_gender_pair_activation_screen,test,4,3,0.3249999999999999,0.3249999999999999,0.3249999999999999,0.3249999999999999,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000004,bib_pair_0000002,fixture_0000003,fixture_0000002,dev,"Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,0,1,24::0,24::1,bias_in_bios_gender_pair_activation_screen,test,5,4,0.1,0.1,0.1,0.1,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000005,bib_pair_0000003,fixture_0000002,fixture_0000003,dev,"Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,1,0,24::1,24::0,bias_in_bios_gender_pair_activation_screen,test,1,0,1.0,1.0,1.0,1.0,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000006,bib_pair_0000003,fixture_0000002,fixture_0000003,dev,"Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,1,0,24::1,24::0,bias_in_bios_gender_pair_activation_screen,test,2,1,0.775,0.775,0.775,0.775,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000007,bib_pair_0000003,fixture_0000002,fixture_0000003,dev,"Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,1,0,24::1,24::0,bias_in_bios_gender_pair_activation_screen,test,3,2,0.55,0.55,0.55,0.55,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000008,bib_pair_0000003,fixture_0000002,fixture_0000003,dev,"Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,1,0,24::1,24::0,bias_in_bios_gender_pair_activation_screen,test,4,3,0.3249999999999999,0.3249999999999999,0.3249999999999999,0.3249999999999999,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt
+sweep_00000009,bib_pair_0000003,fixture_0000002,fixture_0000003,dev,"Biography:
+She is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.","Biography:
+He is a software engineer focused on distributed systems.
+
+Question: What is the person's profession? Answer with the occupation label only.",24,1,0,24::1,24::0,bias_in_bios_gender_pair_activation_screen,test,5,4,0.1,0.1,0.1,0.1,1.0,1,gemma-scope-2b-pt-res-canonical,layer_20/width_16k/canonical,blocks.20.hook_resid_post,blocks.20.hook_resid_post.hook_sae_acts_post,20,resample,same_split_random_patch_prompt

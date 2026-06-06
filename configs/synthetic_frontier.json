@@ -1,0 +1,68 @@
+{
+  "replicates": 16,
+  "output_dir": "results/synthetic_frontier",
+  "base_pipeline": {
+    "screen_fraction": 0.4,
+    "test_fraction": 0.4,
+    "screen_n": 96,
+    "q": 0.1,
+    "e_gamma": 0.5,
+    "n_bootstrap": 99,
+    "confidence": 0.95
+  },
+  "base_synthetic": {
+    "n_prompts": 1000,
+    "n_features": 512,
+    "n_active": 24,
+    "n_blocks": 32,
+    "within_block_corr": 0.35,
+    "active_mean_shift": 1.25,
+    "null_mean_shift_sd": 0.15,
+    "effect_size": 0.55,
+    "nuisance_effect_sd": 0.3,
+    "metric_noise_sd": 0.4,
+    "cluster_size": 8,
+    "seed": 20260601
+  },
+  "scenarios": [
+    {
+      "name": "nominal",
+      "description": "Base setting matching the first Gate B run at lower bootstrap budget.",
+      "synthetic": {},
+      "pipeline": {}
+    },
+    {
+      "name": "high_dependence",
+      "description": "Stronger block correlation among features.",
+      "synthetic": {
+        "within_block_corr": 0.75,
+        "n_blocks": 16
+      },
+      "pipeline": {}
+    },
+    {
+      "name": "weak_effect",
+      "description": "Smaller active causal effects.",
+      "synthetic": {
+        "effect_size": 0.35
+      },
+      "pipeline": {}
+    },
+    {
+      "name": "narrow_screen",
+      "description": "Lower discovery budget in Stage 1 screening.",
+      "synthetic": {},
+      "pipeline": {
+        "screen_n": 48
+      }
+    },
+    {
+      "name": "high_nuisance",
+      "description": "More prompt-level nuisance variation for null features.",
+      "synthetic": {
+        "nuisance_effect_sd": 0.5
+      },
+      "pipeline": {}
+    }
+  ]
+}

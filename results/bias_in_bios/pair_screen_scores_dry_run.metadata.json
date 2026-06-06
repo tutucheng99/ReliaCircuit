@@ -1,0 +1,17 @@
+{
+  "model_id": "gemma-2-2b",
+  "sae_release": "gemma-scope-2b-pt-res-canonical",
+  "sae_id": "layer_20/width_16k/canonical",
+  "prompts": "data\\bias_in_bios\\paired_prompts_dry_run.csv",
+  "prompt_rows": 2,
+  "split": "screen",
+  "top_k": 5,
+  "score_mode": "activation_delta",
+  "seq_pos": "last",
+  "prepend_bos": false,
+  "use_error_term": true,
+  "candidate_features": null,
+  "dry_run": true,
+  "features_output": "data\\bias_in_bios\\pair_screened_features_dry_run.csv",
+  "features_written": 5
+}

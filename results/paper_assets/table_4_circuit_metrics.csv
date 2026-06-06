@@ -1,0 +1,3 @@
+method,completeness_r2_mean,necessity_fraction_mean,selected_full_corr_mean,sign_agreement_mean
+e_bh_pcal,0.7874,0.9359,0.9076,0.8646
+top_score_k_active,0.5428,0.6897,0.7581,0.7886

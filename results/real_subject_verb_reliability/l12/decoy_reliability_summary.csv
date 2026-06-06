@@ -1,0 +1,9 @@
+layer,method,selection_rule,discoveries_mean,discoveries_std,known_null_decoys_selected_mean,known_null_decoys_selected_std,known_null_fdp_mean,known_null_fdp_std
+L12,top_score_fixed_k_256,screen_score_manual_k,256.0,0.0,256.0,0.0,1.0,0.0
+L12,top_score_fixed_k_7,screen_score_manual_k,7.0,0.0,7.0,0.0,1.0,0.0
+L12,top_score_matched_bh,screen_score_manual_k,24.99,1.6472605551895592,24.99,1.6472605551895592,1.0,0.0
+L12,top_score_matched_e_bh_pcal,screen_score_manual_k,6.0,0.0,6.0,0.0,1.0,0.0
+L12,bh,test_split_fdr,24.99,1.6472605551895592,1.32,1.2710933844371146,0.04984408235442718,0.045903772699609206
+L12,by_bh,test_split_fdr,12.095,0.32635492594480975,0.095,0.32635492594480964,0.007197802197802198,0.024475611046578864
+L12,e_bh_pcal,test_split_fdr,6.0,0.0,0.0,0.0,0.0,0.0
+L12,p_lt_q,test_split_fdr,79.805,5.0898435671136735,25.805,5.0898435671136735,0.3205788964945958,0.043842670438864646

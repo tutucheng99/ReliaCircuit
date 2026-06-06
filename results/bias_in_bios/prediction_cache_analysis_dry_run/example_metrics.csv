@@ -1,0 +1,13 @@
+example_id,method,predicted_label,predicted_label_text,prediction_score,target_label,protected_label,n_removed_features,group_id,split,correct
+dry_run_0000000,clean,1,architect,-1.0,0,1,0,0::1,dry_run,False
+dry_run_0000000,e_bh_pcal,0,accountant,0.0,0,1,5,0::1,dry_run,True
+dry_run_0000000,top_score,1,architect,-1.0,0,1,5,0::1,dry_run,False
+dry_run_0000001,clean,1,architect,0.0,1,0,0,1::0,dry_run,True
+dry_run_0000001,e_bh_pcal,1,architect,0.0,1,0,5,1::0,dry_run,True
+dry_run_0000001,top_score,1,architect,0.0,1,0,5,1::0,dry_run,True
+dry_run_0000002,clean,0,accountant,-1.0,2,1,0,2::1,dry_run,False
+dry_run_0000002,e_bh_pcal,2,attorney,0.0,2,1,5,2::1,dry_run,True
+dry_run_0000002,top_score,2,attorney,0.0,2,1,5,2::1,dry_run,True
+dry_run_0000003,clean,3,chiropractor,0.0,3,0,0,3::0,dry_run,True
+dry_run_0000003,e_bh_pcal,3,chiropractor,0.0,3,0,5,3::0,dry_run,True
+dry_run_0000003,top_score,0,accountant,-1.0,3,0,5,3::0,dry_run,False

@@ -1,0 +1,6 @@
+scenario,description,synthetic.n_prompts,synthetic.n_features,synthetic.n_active,synthetic.n_blocks,synthetic.within_block_corr,synthetic.active_mean_shift,synthetic.null_mean_shift_sd,synthetic.effect_size,synthetic.nuisance_effect_sd,synthetic.metric_noise_sd,synthetic.cluster_size,synthetic.seed,pipeline.screen_fraction,pipeline.test_fraction,pipeline.screen_n,pipeline.q,pipeline.e_gamma,pipeline.n_bootstrap,pipeline.confidence
+nominal,Base setting matching the first Gate B run at lower bootstrap budget.,1000,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260601,0.4,0.4,96,0.1,0.5,99,0.95
+high_dependence,Stronger block correlation among features.,1000,512,24,16,0.75,1.25,0.15,0.55,0.3,0.4,8,20260601,0.4,0.4,96,0.1,0.5,99,0.95
+weak_effect,Smaller active causal effects.,1000,512,24,32,0.35,1.25,0.15,0.35,0.3,0.4,8,20260601,0.4,0.4,96,0.1,0.5,99,0.95
+narrow_screen,Lower discovery budget in Stage 1 screening.,1000,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260601,0.4,0.4,48,0.1,0.5,99,0.95
+high_nuisance,More prompt-level nuisance variation for null features.,1000,512,24,32,0.35,1.25,0.15,0.55,0.5,0.4,8,20260601,0.4,0.4,96,0.1,0.5,99,0.95

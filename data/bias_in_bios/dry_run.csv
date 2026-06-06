@@ -1,0 +1,5 @@
+example_id,split,text,profession,gender,text_len_chars,group_id
+dry_run_0000000,dry_run,She is a nurse with experience in emergency care.,0,1,49,0::1
+dry_run_0000001,dry_run,He is a software engineer focused on distributed systems.,1,0,57,1::0
+dry_run_0000002,dry_run,She is a professor of molecular biology.,2,1,40,2::1
+dry_run_0000003,dry_run,He is an attorney specializing in civil rights.,3,0,47,3::0

@@ -1,0 +1,6 @@
+scenario,description,synthetic.n_prompts,synthetic.n_features,synthetic.n_active,synthetic.n_blocks,synthetic.within_block_corr,synthetic.active_mean_shift,synthetic.null_mean_shift_sd,synthetic.effect_size,synthetic.nuisance_effect_sd,synthetic.metric_noise_sd,synthetic.cluster_size,synthetic.seed,pipeline.screen_fraction,pipeline.test_fraction,pipeline.screen_n,pipeline.q,pipeline.e_gamma,pipeline.n_bootstrap,pipeline.confidence
+n600,Fewer prompts; same split fractions.,600,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260615,0.4,0.4,96,0.1,0.5,149,0.95
+n1000,Base sample size.,1000,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260615,0.4,0.4,96,0.1,0.5,149,0.95
+n1600,More prompts; same split fractions.,1600,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260615,0.4,0.4,96,0.1,0.5,149,0.95
+test20,Smaller independent test split for inference.,1000,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260615,0.5,0.2,96,0.1,0.5,149,0.95
+test50,Larger independent test split for inference.,1000,512,24,32,0.35,1.25,0.15,0.55,0.3,0.4,8,20260615,0.3,0.5,96,0.1,0.5,149,0.95

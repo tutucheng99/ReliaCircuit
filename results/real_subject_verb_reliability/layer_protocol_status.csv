@@ -1,0 +1,5 @@
+layer,layer_index,sae_id,data_dir,result_dir,status,missing_files
+L8,8,layer_8/width_16k/canonical,data/subject_verb_agreement_balanced_l08,results/subject_verb_agreement_balanced_l08,complete,
+L12,12,layer_12/width_16k/canonical,data/subject_verb_agreement_balanced_l12,results/subject_verb_agreement_balanced_l12,complete,
+L16,16,layer_16/width_16k/canonical,data/subject_verb_agreement_balanced_l16,results/subject_verb_agreement_balanced_l16,complete,
+L20,20,layer_20/width_16k/canonical,data/subject_verb_agreement_balanced,results/subject_verb_agreement_balanced,complete,

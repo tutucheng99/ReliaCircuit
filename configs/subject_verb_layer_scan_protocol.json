@@ -1,0 +1,47 @@
+{
+  "protocol_id": "real_subject_verb_balanced_layer_scan_v1",
+  "description": "Fixed four-point Gemma Scope layer scan for balanced subject-verb real-model evidence. L12 and L20 are completed anchor layers; L8 and L16 are the remaining completion layers for the final curve.",
+  "model_id": "google/gemma-2-2b",
+  "transformer_lens_model_id": "gemma-2-2b",
+  "sae_release": "gemma-scope-2b-pt-res-canonical",
+  "prompts": "data/subject_verb_agreement_balanced/prompts.csv",
+  "q": 0.1,
+  "top_k": 256,
+  "layers": [
+    {
+      "label": "L8",
+      "layer": 8,
+      "sae_id": "layer_8/width_16k/canonical",
+      "data_dir": "data/subject_verb_agreement_balanced_l08",
+      "result_dir": "results/subject_verb_agreement_balanced_l08"
+    },
+    {
+      "label": "L12",
+      "layer": 12,
+      "sae_id": "layer_12/width_16k/canonical",
+      "data_dir": "data/subject_verb_agreement_balanced_l12",
+      "result_dir": "results/subject_verb_agreement_balanced_l12"
+    },
+    {
+      "label": "L16",
+      "layer": 16,
+      "sae_id": "layer_16/width_16k/canonical",
+      "data_dir": "data/subject_verb_agreement_balanced_l16",
+      "result_dir": "results/subject_verb_agreement_balanced_l16"
+    },
+    {
+      "label": "L20",
+      "layer": 20,
+      "sae_id": "layer_20/width_16k/canonical",
+      "data_dir": "data/subject_verb_agreement_balanced",
+      "result_dir": "results/subject_verb_agreement_balanced"
+    }
+  ],
+  "reporting_guardrails": [
+    "Report every configured layer; do not select the best layer as the only real result.",
+    "State that L12/L20 were completed before the four-point extension and that L8/L16 complete the final protocol curve.",
+    "Pair uncentered completeness with centered R2 and selected/full correlation.",
+    "Label any single-feature tracking result as single-feature.",
+    "Do not claim e-BH circuit quality exceeds top-score when the circuit metrics do not support it."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model_id": "gemma-2-2b",
+  "sae_release": "gemma-scope-2b-pt-res-canonical",
+  "sae_id": "layer_20/width_16k/canonical",
+  "prompts": "data\\bias_in_bios\\prompts.csv",
+  "labels": "data\\bias_in_bios\\profession_labels.csv",
+  "prompt_rows": 4,
+  "candidate_labels": 28,
+  "methods": [
+    "clean",
+    "e_bh_pcal",
+    "top_score"
+  ],
+  "label_score": "mean_logprob",
+  "intervention_pos": "prompt_last",
+  "prepend_bos": false,
+  "use_error_term": true,
+  "dry_run": true,
+  "rows_written": 12
+}

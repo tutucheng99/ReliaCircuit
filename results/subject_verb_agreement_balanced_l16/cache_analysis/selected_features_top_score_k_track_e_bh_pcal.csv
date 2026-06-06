@@ -1,0 +1,2 @@
+selection_method,screen_rank,feature_id,screen_score,mean_abs_activation_delta,mean_signed_activation_delta,mean_metric_weighted_delta,mean_abs_metric_gap,n_screen_prompts,sae_release,sae_id,hook_name,sae_acts_hook,layer,ablation_type
+top_score_k_track_e_bh_pcal,1,4285,161.481081184588,29.674553262559996,0.0,161.481081184588,5.536436382092927,304,gemma-scope-2b-pt-res-canonical,layer_16/width_16k/canonical,blocks.16.hook_resid_post,blocks.16.hook_resid_post.hook_sae_acts_post,16,resample

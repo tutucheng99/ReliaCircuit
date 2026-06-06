@@ -1,0 +1,26 @@
+| layer   | method                      | selection_rule        |   discoveries_mean |   known_null_decoys_selected_mean |   known_null_fdp_mean |
+|:--------|:----------------------------|:----------------------|-------------------:|----------------------------------:|----------------------:|
+| L8      | top_score_fixed_k_256       | screen_score_manual_k |            256     |                           256     |                1      |
+| L8      | top_score_matched_e_bh_pcal | screen_score_manual_k |              3     |                             3     |                1      |
+| L8      | bh                          | test_split_fdr        |             12.695 |                             0.69  |                0.0504 |
+| L8      | by_bh                       | test_split_fdr        |              8.095 |                             0.09  |                0.0098 |
+| L8      | e_bh_pcal                   | test_split_fdr        |              3     |                             0     |                0      |
+| L8      | p_lt_q                      | test_split_fdr        |             77.305 |                            25.305 |                0.3249 |
+| L12     | top_score_fixed_k_256       | screen_score_manual_k |            256     |                           256     |                1      |
+| L12     | top_score_matched_e_bh_pcal | screen_score_manual_k |              6     |                             6     |                1      |
+| L12     | bh                          | test_split_fdr        |             24.99  |                             1.32  |                0.0498 |
+| L12     | by_bh                       | test_split_fdr        |             12.095 |                             0.095 |                0.0072 |
+| L12     | e_bh_pcal                   | test_split_fdr        |              6     |                             0     |                0      |
+| L12     | p_lt_q                      | test_split_fdr        |             79.805 |                            25.805 |                0.3206 |
+| L16     | top_score_fixed_k_256       | screen_score_manual_k |            256     |                           256     |                1      |
+| L16     | top_score_matched_e_bh_pcal | screen_score_manual_k |             23     |                            23     |                1      |
+| L16     | bh                          | test_split_fdr        |             45.17  |                             2.465 |                0.0527 |
+| L16     | by_bh                       | test_split_fdr        |             31.435 |                             0.23  |                0.0069 |
+| L16     | e_bh_pcal                   | test_split_fdr        |             23     |                             0     |                0      |
+| L16     | p_lt_q                      | test_split_fdr        |            115.135 |                            25.135 |                0.2171 |
+| L20     | top_score_fixed_k_256       | screen_score_manual_k |            256     |                           256     |                1      |
+| L20     | top_score_matched_e_bh_pcal | screen_score_manual_k |             15     |                            15     |                1      |
+| L20     | bh                          | test_split_fdr        |             41.51  |                             1.96  |                0.0454 |
+| L20     | by_bh                       | test_split_fdr        |             27.165 |                             0.165 |                0.0059 |
+| L20     | e_bh_pcal                   | test_split_fdr        |             15     |                             0     |                0      |
+| L20     | p_lt_q                      | test_split_fdr        |             97.575 |                            25.575 |                0.2605 |

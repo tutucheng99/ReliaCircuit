@@ -1,0 +1,13 @@
+method,target_label,protected_label,group_id,n,accuracy
+clean,0,1,0::1,1,0.0
+clean,1,0,1::0,1,1.0
+clean,2,1,2::1,1,0.0
+clean,3,0,3::0,1,1.0
+e_bh_pcal,0,1,0::1,1,1.0
+e_bh_pcal,1,0,1::0,1,1.0
+e_bh_pcal,2,1,2::1,1,1.0
+e_bh_pcal,3,0,3::0,1,1.0
+top_score,0,1,0::1,1,0.0
+top_score,1,0,1::0,1,1.0
+top_score,2,1,2::1,1,1.0
+top_score,3,0,3::0,1,0.0

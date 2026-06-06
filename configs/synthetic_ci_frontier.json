@@ -1,0 +1,69 @@
+{
+  "replicates": 12,
+  "output_dir": "results/synthetic_ci_frontier",
+  "base_pipeline": {
+    "screen_fraction": 0.4,
+    "test_fraction": 0.4,
+    "screen_n": 96,
+    "q": 0.1,
+    "e_gamma": 0.5,
+    "n_bootstrap": 149,
+    "confidence": 0.95
+  },
+  "base_synthetic": {
+    "n_prompts": 1000,
+    "n_features": 512,
+    "n_active": 24,
+    "n_blocks": 32,
+    "within_block_corr": 0.35,
+    "active_mean_shift": 1.25,
+    "null_mean_shift_sd": 0.15,
+    "effect_size": 0.55,
+    "nuisance_effect_sd": 0.3,
+    "metric_noise_sd": 0.4,
+    "cluster_size": 8,
+    "seed": 20260615
+  },
+  "scenarios": [
+    {
+      "name": "n600",
+      "description": "Fewer prompts; same split fractions.",
+      "synthetic": {
+        "n_prompts": 600
+      },
+      "pipeline": {}
+    },
+    {
+      "name": "n1000",
+      "description": "Base sample size.",
+      "synthetic": {},
+      "pipeline": {}
+    },
+    {
+      "name": "n1600",
+      "description": "More prompts; same split fractions.",
+      "synthetic": {
+        "n_prompts": 1600
+      },
+      "pipeline": {}
+    },
+    {
+      "name": "test20",
+      "description": "Smaller independent test split for inference.",
+      "synthetic": {},
+      "pipeline": {
+        "screen_fraction": 0.5,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "name": "test50",
+      "description": "Larger independent test split for inference.",
+      "synthetic": {},
+      "pipeline": {
+        "screen_fraction": 0.3,
+        "test_fraction": 0.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+example_id,method,predicted_label,target_label,protected_label,group_id,split,correct
+dry_run_0000000,clean,1,0,1,0::1,dry_run,False
+dry_run_0000000,e_bh_pcal,0,0,1,0::1,dry_run,True
+dry_run_0000000,top_score,1,0,1,0::1,dry_run,False
+dry_run_0000001,clean,1,1,0,1::0,dry_run,True
+dry_run_0000001,e_bh_pcal,1,1,0,1::0,dry_run,True
+dry_run_0000001,top_score,1,1,0,1::0,dry_run,True
+dry_run_0000002,clean,3,2,1,2::1,dry_run,False
+dry_run_0000002,e_bh_pcal,2,2,1,2::1,dry_run,True
+dry_run_0000002,top_score,2,2,1,2::1,dry_run,True
+dry_run_0000003,clean,3,3,0,3::0,dry_run,True
+dry_run_0000003,e_bh_pcal,3,3,0,3::0,dry_run,True
+dry_run_0000003,top_score,0,3,0,3::0,dry_run,False

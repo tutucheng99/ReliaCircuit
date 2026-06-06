@@ -1,0 +1,10 @@
+{
+  "dataset_name": "LabHC/bias_in_bios",
+  "text_column": "hard_text",
+  "profession_column": "profession",
+  "gender_column": "gender",
+  "splits": ["train", "dev", "test"],
+  "max_rows_per_split": null,
+  "output_dir": "data/bias_in_bios",
+  "source_url": "https://huggingface.co/datasets/LabHC/bias_in_bios"
+}

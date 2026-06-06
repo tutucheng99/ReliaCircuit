@@ -1,0 +1,65 @@
+{
+  "timestamp_unix": 1780381901.2193205,
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.9.0",
+    "accelerate": "1.13.0",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "1.17.0",
+    "sae-lens": "6.44.2",
+    "transformer-lens": "3.3.0"
+  },
+  "args": {
+    "model_id": "google/gemma-2-2b",
+    "prompt": "The key to the cabinets",
+    "max_new_tokens": 1,
+    "dtype": "auto",
+    "device": "auto",
+    "cache_dir": null,
+    "skip_model_load": false,
+    "skip_sae": false,
+    "sae_release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id": "layer_16/width_16k/canonical",
+    "output": "results/gpu_smoke/full_gemma_scope.json"
+  },
+  "cuda": {
+    "available": true,
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA B200",
+        "total_memory_gb": 178.35,
+        "capability": [
+          10,
+          0
+        ]
+      }
+    ],
+    "torch_cuda_version": "12.8"
+  },
+  "chosen_device": "cuda",
+  "model": {
+    "ok": true,
+    "model_id": "google/gemma-2-2b",
+    "device": "cuda:0",
+    "dtype": "torch.bfloat16",
+    "elapsed_sec": 29.292,
+    "input_tokens": 6,
+    "decoded_preview": "The key to the cabinets is"
+  },
+  "sae": {
+    "ok": true,
+    "release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id": "layer_16/width_16k/canonical",
+    "elapsed_sec": 34.139,
+    "sae_class": "JumpReLUSAE",
+    "cfg": {
+      "d_in": 2304,
+      "d_sae": 16384,
+      "architecture": "<bound method JumpReLUSAEConfig.architecture of <class 'sae_lens.saes.jumprelu_sae.JumpReLUSAEConfig'>>"
+    }
+  }
+}

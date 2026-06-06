@@ -1,0 +1,13 @@
+example_id,method,predicted_label
+dry_run_0000000,clean,1
+dry_run_0000000,e_bh_pcal,0
+dry_run_0000000,top_score,1
+dry_run_0000001,clean,1
+dry_run_0000001,e_bh_pcal,1
+dry_run_0000001,top_score,1
+dry_run_0000002,clean,3
+dry_run_0000002,e_bh_pcal,2
+dry_run_0000002,top_score,2
+dry_run_0000003,clean,3
+dry_run_0000003,e_bh_pcal,3
+dry_run_0000003,top_score,0

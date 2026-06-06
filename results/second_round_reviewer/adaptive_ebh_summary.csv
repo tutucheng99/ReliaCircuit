@@ -1,0 +1,11 @@
+setting,method,fdr_guarantee_note,discoveries_mean,fdp_mean,power_mean,jaccard_to_default,recall_of_default,gain_vs_default_discoveries
+synthetic_gate_b,e_bh_pcal,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,19.325,0.0013157894736842105,0.8041666666666668,1.0,1.0,0.0
+synthetic_gate_b,screen_stratified_ebh,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,19.325,0.0013157894736842105,0.8041666666666668,1.0,1.0,0.0
+real_L8,e_bh_pcal,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,6.0,,,1.0,1.0,0.0
+real_L8,screen_stratified_ebh,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,5.0,,,0.8333333333333334,0.8333333333333334,-1.0
+real_L12,e_bh_pcal,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,7.0,,,1.0,1.0,0.0
+real_L12,screen_stratified_ebh,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,9.0,,,0.7777777777777778,1.0,2.0
+real_L16,e_bh_pcal,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,23.0,,,1.0,1.0,0.0
+real_L16,screen_stratified_ebh,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,23.0,,,0.9166666666666666,0.9565217391304348,0.0
+real_L20,e_bh_pcal,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,17.0,,,1.0,1.0,0.0
+real_L20,screen_stratified_ebh,e-BH arbitrary-dependence; stratified variant uses disjoint q budgets summing to 0.1,17.0,,,1.0,1.0,0.0

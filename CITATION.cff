@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the anonymous submission during review and update to the camera-ready citation when available."
+title: "Reliable Sparse Circuit Mining: False Discovery Rate Control and Valid Post-Selection Inference for Language Model Behavior"
+authors:
+  - family-names: "Anonymous"
+    given-names: "Authors"
+year: 2026
+type: software
+repository-code: "https://example.invalid/anonymous/reliacircuit"
+license: MIT

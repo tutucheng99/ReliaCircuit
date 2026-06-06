@@ -1,0 +1,6 @@
+{
+  "model_id": "google/gemma-2-2b",
+  "prompt_column": "clean_prompt",
+  "rows": 768,
+  "elapsed_sec": 18.866
+}

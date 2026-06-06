@@ -1,0 +1,38 @@
+{
+  "timestamp_unix": 1780212916.5554855,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.8.0",
+    "transformers": "4.55.0",
+    "accelerate": "1.11.0",
+    "safetensors": "0.6.2",
+    "huggingface-hub": "0.34.4",
+    "sae-lens": null,
+    "transformer-lens": null
+  },
+  "args": {
+    "model_id": "google/gemma-2-2b",
+    "prompt": "The key to the cabinets",
+    "max_new_tokens": 1,
+    "dtype": "auto",
+    "device": "auto",
+    "cache_dir": null,
+    "skip_model_load": true,
+    "skip_sae": true,
+    "sae_release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id": "layer_20/width_16k/canonical",
+    "output": "results\\gpu_smoke\\local_skip_report.json"
+  },
+  "cuda": {
+    "available": false,
+    "device_count": 0
+  },
+  "chosen_device": "cpu",
+  "model": {
+    "skipped": true
+  },
+  "sae": {
+    "skipped": true
+  }
+}

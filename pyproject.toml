@@ -1,0 +1,17 @@
+[project]
+name = "reliacircuit"
+version = "0.1.0"
+description = "Research artifacts for FDR-controlled sparse circuit mining."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "pyarrow>=15",
+    "scipy>=1.11",
+    "matplotlib>=3.7",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

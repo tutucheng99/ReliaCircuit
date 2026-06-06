@@ -1,0 +1,4 @@
+kind,path
+cpu_requirements,requirements-cpu.txt
+gpu_requirements,requirements-gpu.txt
+package_metadata,pyproject.toml

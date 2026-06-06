@@ -1,0 +1,4 @@
+method,n,overall_acc,worst_group_acc,best_group_acc,group_gap,mean_group_acc,n_groups,delta_overall_acc_vs_baseline,delta_worst_group_acc_vs_baseline
+clean,60,0.016666666666666666,0.0,0.5,0.5,0.023809523809523808,21,0.0,0.0
+e_bh_pcal,60,0.016666666666666666,0.0,0.5,0.5,0.023809523809523808,21,0.0,0.0
+top_score,60,0.06666666666666667,0.0,1.0,1.0,0.123015873015873,21,0.05,0.0
